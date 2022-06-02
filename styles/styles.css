@@ -1,0 +1,258 @@
+/**SF Pro Display**/
+@font-face {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/SFPRODISPLAYREGULAR.OTF") format("OTF");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/SFPRODISPLAYBOLD.OTF") format("OTF");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    font-style: italic;
+    font-weight: 400;
+    src: url("fonts/SFPRODISPLAYLIGHTITALIC.OTF") format("OTF");
+}
+
+/**Nunito**/
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 800;
+    src: url("fonts/Nunito-Bold.ttf") format("ttf");
+    font-display: swap;
+}
+
+/**General Settings**/
+
+
+body {
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    color: #EEF1F8;
+    background-color: #151F43;
+    width: 1920px;
+    margin: 0 auto;
+
+}
+
+p {
+    text-align: center
+}
+
+h1 {
+    text-align: center
+}
+
+/**Pages**/
+.main-header {
+    color: #FFFFFF;
+    font-size: 17px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: space-between;
+    width: 1063px;
+    list-style: none;
+    /*убираем маркеры списка*/
+    margin: 0;
+    /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0;
+    /*убираем левый отступ, равный 40px*/
+}
+
+.navigation-item {
+    margin-left: 12px;
+    padding: 0;
+}
+
+.nav__link {
+    font-family: "SF Pro Display", sans-serif;
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+    /*убираем подчеркивание текста ссылок*/
+
+}
+
+
+/* SpiderShiba Inu logo header */
+.link-logo {
+    width: 253px;
+    display: flex;
+    margin: 15px 92px;
+    padding: 0;
+    height: 68px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.mini-logo-header {
+    flex: 0 0 auto;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.navigation_btn {
+    width: 170px;
+    height: 40px;
+    background-color: #AC1216;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin-right: 92px;
+    margin-left: 70px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.mini-logo-title_one {
+    display: inline-flexbox;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 34px;
+    color: #FFFFFF;
+    padding: 0;
+    margin-left: 15px;
+}
+
+.color-title {
+    color: #E11D2E;
+}
+
+.navigation-mini-logo {
+    margin: 0;
+    padding: 0;
+}
+
+/**navigation**/
+.navigation-list {}
+
+/**background header**/
+.wraper-background {
+    outline: 5px solid red;
+    outline-offset: -5px;
+    background-image: url("../img/bg.png");
+    background-color: #5A4039;
+
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+/**Header Title**/
+.main-index {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/**Text**/
+.main-title {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 90px;
+    text-align: left;
+    margin-bottom: 0;
+    
+
+    color: ##FFFFFF;
+}
+
+.title-text-main-header {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #AEB6DA;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.desc {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: left;
+    margin-top: 40px;
+
+
+    color: #E8E8EA;
+
+}
+
+.menu-btns-item {
+
+    background: #E11D2E;
+}
+
+
+.menu-btns-item-2 {
+    background: #0E1B3B;
+}
+
+.address {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(255, 255, 255, 0.2);
+}
+
+/**section one**/
+.main-about-us{
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+.description{
+    margin-left: 92px;
+    margin-right: 188px;
+    width: 848px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
