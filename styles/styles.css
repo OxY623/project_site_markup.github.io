@@ -32,6 +32,9 @@
 }
 
 /**General Settings**/
+html{
+    width: 100%;
+}
 
 
 body {
@@ -80,6 +83,7 @@ h1 {
     margin-left: 12px;
     padding: 0;
     display: inline;
+    white-space: nowrap;
     
 }
 
@@ -91,6 +95,7 @@ h1 {
     color: #FFFFFF;
     text-decoration: none;
     display: inline;
+    white-space: nowrap;
     /*убираем подчеркивание текста ссылок*/
 
 }
