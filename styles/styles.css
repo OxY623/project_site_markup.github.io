@@ -46,11 +46,11 @@ body {
 }
 
 p {
-    text-align: center
+    text-align: center;
 }
 
 h1 {
-    text-align: center
+    text-align: center;
 }
 
 /**Pages**/
@@ -68,16 +68,18 @@ h1 {
     justify-content: space-between;
     width: 1063px;
     list-style: none;
-    /*убираем маркеры списка*/
+
     margin: 0;
-    /*убираем верхнее и нижнее поле, равное 1em*/
+
     padding-left: 0;
-    /*убираем левый отступ, равный 40px*/
+
 }
 
 .navigation-item {
     margin-left: 12px;
     padding: 0;
+    display: inline;
+    
 }
 
 .nav__link {
@@ -87,6 +89,7 @@ h1 {
     font-size: 17px;
     color: #FFFFFF;
     text-decoration: none;
+    display: inline;
     /*убираем подчеркивание текста ссылок*/
 
 }
@@ -162,8 +165,7 @@ h1 {
 
 /**background header**/
 .wraper-background {
-    outline: 5px solid red;
-    outline-offset: -5px;
+
     background-image: url("../img/bg.png");
     background-color: #5A4039;
 
@@ -187,9 +189,9 @@ h1 {
     line-height: 90px;
     text-align: left;
     margin-bottom: 0;
-    
 
-    color: ##FFFFFF;
+
+    color: #FFFFFF;
 }
 
 .title-text-main-header {
@@ -212,21 +214,75 @@ h1 {
     line-height: 38px;
     text-align: left;
     margin-top: 40px;
+    margin-bottom: 0;
 
 
     color: #E8E8EA;
 
 }
 
-.menu-btns-item {
+.menu-btns-link {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
 
-    background: #E11D2E;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    width: 295px;
+    height: 80px;
+    background-color: #AC1216;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin-right: 25px;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.menu-btns-link-2 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration: none;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.9;
+
+    width: 379px;
+    height: 80px;
+    background-color: #1C2646;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin-right: 25px;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
 
-.menu-btns-item-2 {
-    background: #0E1B3B;
-}
+
 
 .address {
     font-family: 'SF Pro Display';
@@ -243,16 +299,82 @@ h1 {
 }
 
 /**section one**/
-.main-about-us{
+.main-about-us {
     display: flex;
     justify-content: center;
-align-items: center;
+    align-items: center;
 }
-.description{
+
+.description {
     margin-left: 92px;
     margin-right: 188px;
     width: 848px;
     display: flex;
     flex-direction: column;
     text-align: left;
+}
+
+.menu-btns {
+    width: 699px;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+.menu-btns-link {
+    text-decoration: none;
+}
+
+.numbers {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(255, 255, 255, 0.4);
+
+}
+
+.address {
+
+    width: 674px;
+    ;
+    height: 75px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 14px;
+    padding-left: 25px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 140px;
+}
+
+/**warning**/
+.stripe {
+    width: 1920px;
+    height: 38px;
+    background-color: #5A4039;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: rgba(255, 245, 0, 0.6);
 }
