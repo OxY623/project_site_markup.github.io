@@ -32,10 +32,9 @@
 }
 
 /**General Settings**/
-html{
+html {
     width: 100%;
 }
-
 
 body {
     font-family: "SF Pro Display", sans-serif;
@@ -43,9 +42,10 @@ body {
     line-height: 38px;
     color: #EEF1F8;
     background-color: #151F43;
-    width: 1920px;
     margin: 0 auto;
-
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 p {
@@ -56,8 +56,8 @@ h1 {
     text-align: center;
 }
 
-/**Pages**/
-.main-header {
+/**Header**/
+.upper-header {
     color: #FFFFFF;
     font-size: 17px;
     margin: 0 auto;
@@ -72,11 +72,8 @@ h1 {
     width: 1063px;
     height: 30px;
     list-style: none;
-
     margin: 0;
-
     padding-left: 0;
-
 }
 
 .navigation-item {
@@ -84,7 +81,7 @@ h1 {
     padding: 0;
     display: inline;
     white-space: nowrap;
-    
+
 }
 
 .nav__link {
@@ -96,10 +93,7 @@ h1 {
     text-decoration: none;
     display: inline;
     white-space: nowrap;
-    /*убираем подчеркивание текста ссылок*/
-
 }
-
 
 /* SpiderShiba Inu logo header */
 .link-logo {
@@ -119,31 +113,6 @@ h1 {
     overflow: hidden;
 }
 
-.navigation_btn {
-    width: 170px;
-    height: 40px;
-    background-color: #AC1216;
-    border-radius: 10px;
-    display: block;
-    text-align: center;
-    margin-right: 92px;
-    margin-left: 70px;
-    font-family: 'SF Pro Display';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    color: #FFFFFF;
-
-    opacity: 0.8;
-}
 
 .mini-logo-title_one {
     display: inline-flexbox;
@@ -166,27 +135,56 @@ h1 {
     padding: 0;
 }
 
-/**navigation**/
-.navigation-list {}
+/**Header btn right**/
+.navigation_btn {
+    width: 170px;
+    height: 40px;
+    background-color: #AC1216;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin-right: 92px;
+    margin-left: 70px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
 
-/**background header**/
-.wraper-background {
 
+
+
+/**background header + the-main-attractive**/
+.the-first-section-wraper {
     background-image: url("../img/bg.png");
     background-color: #5A4039;
-
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
-/**Header Title**/
-.main-index {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+
+/**Main flex**/
+.main-body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-/**Text**/
+.the-main-attractive {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/**Text title**/
 .main-title {
     font-family: 'SF Pro Display';
     font-style: normal;
@@ -195,12 +193,10 @@ h1 {
     line-height: 90px;
     text-align: left;
     margin-bottom: 0;
-
-
     color: #FFFFFF;
 }
 
-.title-text-main-header {
+.title-text-upper-header {
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 500;
@@ -221,91 +217,63 @@ h1 {
     text-align: left;
     margin-top: 40px;
     margin-bottom: 0;
-
-
     color: #E8E8EA;
 
 }
 
-.menu-btns-link {
+.row-with-buttons-link {
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
     line-height: 30px;
-
-    text-align: center;
-
     color: #FFFFFF;
-
     width: 295px;
     height: 80px;
     background-color: #AC1216;
     border-radius: 10px;
     display: block;
-    text-align: center;
     margin-right: 25px;
-
-
-
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-
-    color: #FFFFFF;
 }
 
-.menu-btns-link-2 {
+.row-with-buttons-link-2 {
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
     line-height: 26px;
     text-decoration: none;
-    text-align: center;
-
     color: #FFFFFF;
-
     opacity: 0.9;
-
     width: 379px;
     height: 80px;
     background-color: #1C2646;
     border-radius: 10px;
     display: block;
-    text-align: center;
     margin-right: 25px;
-
-
-
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-
-    color: #FFFFFF;
 }
 
-
-
-
-.address {
+.row-with-data {
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-    /* identical to box height */
-
     display: flex;
     align-items: center;
-
     color: rgba(255, 255, 255, 0.2);
 }
 
 /**section one**/
-.main-about-us {
+.the-main-attractive {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,7 +288,7 @@ h1 {
     text-align: left;
 }
 
-.menu-btns {
+.row-with-buttons {
     width: 699px;
     list-style: none;
     margin: 0;
@@ -328,32 +296,25 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
-
 }
 
-.menu-btns-link {
+.row-with-buttons-link {
     text-decoration: none;
 }
 
-.numbers {
+.data-numbers {
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
-    /* identical to box height */
-
     display: flex;
     align-items: center;
-
     color: rgba(255, 255, 255, 0.4);
-
 }
 
-.address {
-
+.row-with-data {
     width: 674px;
-    ;
     height: 75px;
     border: 1px solid rgba(255, 255, 255, 0.09);
     border-radius: 10px;
@@ -366,9 +327,21 @@ h1 {
     margin-bottom: 140px;
 }
 
+.logotip {
+    left: 58.75%;
+    right: 10.42%;
+    top: 7.26%;
+    bottom: 87.35%;
+    margin-right: 200px;
+}
+
 /**warning**/
+
 .stripe {
-    width: 1920px;
+    width: min 120%;
+    margin: 0 auto;
+    display: inline;
+    white-space: nowrap;
     height: 38px;
     background-color: #5A4039;
     font-family: 'SF Pro Display';
@@ -376,11 +349,99 @@ h1 {
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-    /* identical to box height */
-
     display: flex;
     align-items: center;
     text-transform: uppercase;
-
+    overflow: hidden;
     color: rgba(255, 245, 0, 0.6);
+}
+
+/**Second section background**/
+.the-second-section-is-the-wrapper {
+    background: #101932;
+    background-size: 100% auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-advantagers-text {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #101932;
+    color: #FFFFFF;
+}
+
+.menu-advantagers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.decorative-element {
+    margin-top: 65px;
+    width: 979.5px;
+    height: 50px;
+}
+
+.menu-advantagers-btn {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 45px 15px;
+    gap: 15px;
+    width: 215px;
+    height: 77px;
+    background: #E11D2E;
+}
+.menu-advantagers-description-item{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+text-align: center;
+color: #FFFFFF;
+}
+.advantagers-description-list{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+justify-content: space-between;
+
+}
+.menu-advantagers-description{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+}
+.advantagers-list-description-item{
+    width: 496px;
+    background: #384D70;
+border-radius: 20px;
+margin-left: 12px;
+    padding: 0;
+    display: inline;
+   
 }
