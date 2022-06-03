@@ -414,34 +414,38 @@ h1 {
     height: 77px;
     background: #E11D2E;
 }
-.menu-advantagers-description-item{
+
+.menu-advantagers-description-item {
     font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 700;
-font-size: 50px;
-line-height: 60px;
-text-align: center;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
 }
-.advantagers-description-list{
+
+.advantagers-description-list {
     display: flex;
     list-style: none;
     margin: 0;
     padding-left: 0;
-justify-content: space-between;
+    justify-content: space-between;
 
 }
-.menu-advantagers-description{
+
+.menu-advantagers-description {
     display: flex;
     flex-direction: column;
-justify-content: center;
+    justify-content: center;
 }
-.advantagers-list-description-item{
+
+.advantagers-list-description-item {
     width: 496px;
     background: #384D70;
-border-radius: 20px;
-margin-left: 12px;
+    border-radius: 20px;
+    margin-left: 12px;
     padding: 0;
     display: inline;
-   
+
 }
