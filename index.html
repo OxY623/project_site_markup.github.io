@@ -276,7 +276,9 @@ Roadmap-->
             <h2 class="development_and_sponsors-title">Team</h2>
             <div class="development_and_sponsors-title_team" data-uk-slideset="{default: 4}">
                 <div class="uk-slidenav-position_team">
-                    <ul class="uk-grid-uk-slideset-team-list">
+                    <div class="mainSlider" id="sliderA">
+                        <button class="slidePrev"> << </button>
+                    <ul class="uk-grid-uk-slideset-team-list slideImg">
                         <li class="team-item">
                             <img src="#" alt="foto-person" width="350px" height="337px">
                             <h4 class=" team-name">Harry Pham</h4>
@@ -308,9 +310,9 @@ Roadmap-->
                             <p class="team-profession">Magician</p>
                         </li>
                     </ul>
-                    <a href="" class="uk-slidenav uk-slidenav-previous" data-uk-slideset-item="previous"></a>
-                    <a href="" class="uk-slidenav uk-slidenav-next" data-uk-slideset-item="next"></a>
+                    <button class="slideNext"> >> </button>
                 </div>
+            </div>
                 <ul class="uk-slideset-nav uk-dotnav uk-flex-center">...</ul>
             </div>
             <!--Partners & Investors-->
@@ -498,5 +500,6 @@ Roadmap-->
     </footer>
 
 </body>
-
+<script src="js/index.js"></script>
+<script src="js/slider1.js"></script>
 </html>

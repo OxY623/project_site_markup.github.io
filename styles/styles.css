@@ -877,13 +877,14 @@ h2 {
     position: relative;
     left:395px;
     top:-70px;
-    background-color: #384D70;
+    background-color: #4f6487;
 }
 .roadmap-item-5{
     position: relative;
     left:-430px;
     top:-70px;
-    background-color: #384D70;
+    background-color: #4f6487;
+    
    
 }
 /**-the sixth block
@@ -912,4 +913,7 @@ h2 {
 
 .partners-gallery-link {
     text-decoration: none;
+}
+.mainSlider{
+    display: flex;
 }
