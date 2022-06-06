@@ -788,7 +788,7 @@ h2 {
 }
 
 .implementation-of-the-plan-list {
-    list-style: none;
+    list-style: disc;
 }
 
 .roadmap-item:before {
@@ -858,7 +858,34 @@ h2 {
 .implementation-of-the-plan-list {
     margin-top: 20px;
 }
-
+.roadmap-item-1{
+    position: relative;
+    left:-430px;
+    top:-80px; 
+}
+.roadmap-item-2{
+    position: relative;
+    left:395px;
+    top:-80px;
+}
+.roadmap-item-3{
+    position: relative;
+    left:-430px;
+    top:-80px;
+}
+.roadmap-item-4{
+    position: relative;
+    left:395px;
+    top:-70px;
+    background-color: #384D70;
+}
+.roadmap-item-5{
+    position: relative;
+    left:-430px;
+    top:-70px;
+    background-color: #384D70;
+   
+}
 /**-the sixth block
             Team**/
 .development_and_sponsors {
