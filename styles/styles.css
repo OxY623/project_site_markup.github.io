@@ -438,6 +438,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 160px;
 }
 
 .advantagers-list-description-item {
@@ -449,3 +450,114 @@ h1 {
     display: inline;
 
 }
+
+.icon_img {
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.advantager_column_title {
+    text-align: left;
+    font-family: 'SF Pro Display';
+    margin-left: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.advantager_column_subtitle {
+    text-align: left;
+    font-family: 'SF Pro Display';
+    margin-left: 40px;
+    font-style: normal;
+    opacity: 0.3;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+.advantager_column_text {
+    text-align: left;
+    font-family: 'SF Pro Display';
+    margin-left: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.central_column{
+    margin-left: 68px;
+    margin-right: 68px;
+}
+
+/** Play to earn**/
+.informational-articles{
+    background-color: #101932;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.informational-articles-title{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.informational-articles-text{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 42px;
+margin-top: 10px;
+opacity: 0.5;
+}
+.informational-articles-wrapper{
+    width: 1736px;
+background: #071022;
+border-radius: 30px;
+display: flex;
+
+justify-content: space-between;
+}
+
+.just_a_picture{
+    margin-top: 36px;
+    margin-left: 50px;
+}
+
+.informational-articles-main-title{
+ margin-top: 0;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+}
+
+.informational-articles-main-text{
+    font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: left ;
+}
+.informational-articles-main{
+    padding: 36px 50px 36px 60px;
+}
+
