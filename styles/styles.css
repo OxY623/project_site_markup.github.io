@@ -914,6 +914,27 @@ h2 {
 .partners-gallery-link {
     text-decoration: none;
 }
-.mainSlider{
-    display: flex;
-}
+
+.mi-slider {
+        
+            position: relative;
+        
+            margin-top: 30px;
+        
+            height: 490px;
+        
+        }
+        
+ .mi-slider ul {
+            list-style-type: none;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            bottom: 140px;
+            overflow: hidden;
+            text-align: center;
+            pointer-events: none;
+        }
+         .mi-slider ul.mi-current {
+            pointer-events: auto;
+        }
