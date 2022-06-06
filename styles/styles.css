@@ -46,14 +46,18 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+
 }
 
-p {
-    text-align: center;
-}
 
-h1 {
+
+h2 {
     text-align: center;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
 }
 
 /**Header**/
@@ -66,15 +70,7 @@ h1 {
     align-items: center;
 }
 
-.navigation-list {
-    display: flex;
-    justify-content: space-between;
-    width: 1063px;
-    height: 30px;
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-}
+
 
 .navigation-item {
     margin-left: 12px;
@@ -495,21 +491,21 @@ h1 {
     color: #FFFFFF;
 }
 
-.central_column{
+.central_column {
     margin-left: 68px;
     margin-right: 68px;
 }
 
 /** Play to earn**/
-.informational-articles{
+.informational-articles {
     background-color: #101932;
     display: flex;
     flex-direction: column;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.informational-articles-title{
+.informational-articles-title {
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 700;
@@ -519,190 +515,221 @@ align-items: center;
     margin-top: 50px;
     margin-bottom: 0;
 }
-.informational-articles-text{
+
+.informational-articles-text {
     font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 42px;
-margin-top: 10px;
-opacity: 0.5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 42px;
+    margin-top: 10px;
+    opacity: 0.5;
 }
-.informational-articles-wrapper{
+
+.informational-articles-wrapper {
     width: 1736px;
-background: #071022;
-border-radius: 30px;
-display: flex;
+    background: #071022;
+    border-radius: 30px;
+    display: flex;
 
-justify-content: space-between;
+    justify-content: space-between;
 }
 
-.just_a_picture{
+.just_a_picture {
     margin-top: 36px;
     margin-left: 50px;
 }
 
-.informational-articles-main-title{
- margin-top: 0;
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 36px;
+.informational-articles-main-title {
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
 }
-.informational-articles-main{
+
+.informational-articles-main {
     height: 384px;
 }
-.informational-articles-main-text{
+
+.informational-articles-main-text {
     font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
-text-align: left ;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left;
 }
-.informational-articles-main{
+
+.informational-articles-main {
     padding: 36px 50px 36px 60px;
 }
-.informational-articles-other-wrapper{
+
+.informational-articles-other-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
     width: 1736px;
-   
-}
-.informational-articles-bonuses{
-    width: 848px;
-  
-background: #FF9429;
-border-radius: 30px;
 
-display: flex;
-flex-direction: row;
-justify-content: space-between;
 }
-.informational-articles-ivents{
-  width: 848px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-background: #067CCB;
-border-radius: 30px;
+
+.informational-articles-bonuses {
+    width: 848px;
+
+    background: #FF9429;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.informational-articles-ivents-wrapper, .informational-articles-bonuses-wrapper{
+
+.informational-articles-ivents {
+    width: 848px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #067CCB;
+    border-radius: 30px;
+}
+
+.informational-articles-ivents-wrapper,
+.informational-articles-bonuses-wrapper {
     padding-left: 30px;
 }
-.informational-articles-bonuses-wrapper{ margin-left: 40px;}
-.informational-articles-bonuses-title, .informational-articles-ivents-title{
+
+.informational-articles-bonuses-wrapper {
+    margin-left: 40px;
+}
+
+.informational-articles-bonuses-title,
+.informational-articles-ivents-title {
     margin-top: 0;
     padding-top: 0;
     text-align: left;
     font-weight: 700;
-font-size: 30px;
-line-height: 36px;
-color: #FFFFFF;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
 
 }
-.informational-articles-ivents-text, .informational-articles-bonuses-text{
-  margin-top: 20px;
-  padding-top: 0;
-  font-weight: 400;
-font-size: 28px;
-line-height: 33px;
-text-align: left;
-color: #FFFFFF;
-opacity: 0.8;
-  
+
+.informational-articles-ivents-text,
+.informational-articles-bonuses-text {
+    margin-top: 20px;
+    padding-top: 0;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 0.8;
+
 }
+
 /** The fourth block 
 Why invest in SpiderShiba Inu?**/
-.brief-summary{
-   margin: 0 auto;
-width: 1920px;
-height: 662px;
-background: #30298C;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-}
-.brief-summary-wrapper{
-    display: flex;
-    flex-direction: column;
-justify-content: center;
-}
-
-.brief-summary-title{
-    font-weight: 700;
-font-size: 50px;
-line-height: 60px;
-text-align: left;
-}
-.brief-summary-text{
-    font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: left;
-}
-.brief-summary-btn{
-    width: 404px;
-height: 80px;
-border-radius: 10px;
-background-color: #AC1216;
-font-weight: 700;
-font-size: 25px;
-line-height: 30px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
-display: flex;
-justify-content: center;
-text-align: center;
-opacity: 0.8;
-text-decoration: none;
-}
-.brief-summary-wrapper-inner{
-    display: flex;
-    flex-direction: column;
-justify-content: center;
-
-}
-.brief-summary-wrapper-inner-1, .brief-summary-wrapper-inner-2{
+.brief-summary {
+    margin: 0 auto;
+    width: 1920px;
+    height: 662px;
+    background: #30298C;
     display: flex;
     flex-direction: row;
-justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
+
+.brief-summary-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brief-summary-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+}
+
+.brief-summary-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.brief-summary-btn {
+    width: 404px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #AC1216;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.brief-summary-wrapper-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.brief-summary-wrapper-inner-1,
+.brief-summary-wrapper-inner-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /**the fifth block
 Roadmap**/
-.roadmap{
-   margin: 0 auto; 
-width: 1920px;
-height: 1985px;
-background: url("../img/Frame 36.png"), #101932;
+.roadmap {
+    margin: 0 auto;
+    width: 1920px;
+    height: 1985px;
+    background: url("../img/Frame 36.png"), #101932;
 
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.roadmap-title{
+
+.roadmap-title,
+h2 {
     font-weight: 700;
-font-size: 50px;
-line-height: 60px;
+    font-size: 50px;
+    line-height: 60px;
 }
-.roadmap-list{
+
+.roadmap-list {
     counter-reset: myCounter;
 
 }
-.roadmap-item{
+
+.roadmap-item {
     list-style: none;
 }
-implementation-of-the-plan-list{
+
+.implementation-of-the-plan-list {
     list-style: none;
 }
+
 .roadmap-item:before {
     counter-increment: myCounter;
-    content:counter(myCounter);
+    content: counter(myCounter);
     color: white;
     display: flex;
     background: #384D70;
@@ -716,52 +743,83 @@ implementation-of-the-plan-list{
     height: 146px;
     text-align: center;
 
-   
- 
-color: #FFFFFF;
 
-opacity: 0.5;
+
+    color: #FFFFFF;
+
+    opacity: 0.5;
     background: #384D70;
     opacity: 0.2;
     border-radius: 30px;
     font-weight: 700;
-font-size: 65px;
-flex-direction: row;
+    font-size: 65px;
+    flex-direction: row;
 
 
 
-  }
+}
 
-  .roadmap-item{
+.roadmap-item {
     width: 792px;
-   display: flex;
-   flex-direction: row;
-justify-content: flex-start;
-align-items: flex-start;
-  
-font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
     background: rgba(56, 77, 112, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 30px;
-    margin-top:60px;
+    margin-top: 60px;
 
-  }
-  .implementation-of-the-plan-list{
+}
+
+.implementation-of-the-plan-list {
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
- 
-    
+
+
     color: #FFFFFF;
-  }
-  .hlp{
-      margin-top: 30px;
-      padding-bottom: 30px;
-  }
-  .implementation-of-the-plan-list{
-      margin-top: 20px;
-  }
+}
+
+.hlp {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.implementation-of-the-plan-list {
+    margin-top: 20px;
+}
+
+/**-the sixth block
+            Team**/
+.development_and_sponsors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.uk-grid-uk-slideset-team-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.team-item,
+.partners-gallery-item {
+    padding: 0;
+    display: inline;
+    white-space: nowrap;
+
+}
+
+.partners-gallery-link {
+    text-decoration: none;
+}
