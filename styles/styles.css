@@ -355,12 +355,13 @@ h2 {
 /**Second section background**/
 .the-second-section-is-the-wrapper {
     background: #101932;
-    background-size: 100% auto;
+    background-size:  100%;
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .menu-advantagers-text {
@@ -372,8 +373,10 @@ h2 {
     display: flex;
     align-items: center;
     text-align: center;
-    background: #101932;
+    
     color: #FFFFFF;
+    position: relative;
+    top: 360px ;
 }
 
 .menu-advantagers {
@@ -382,13 +385,33 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+.icon-link-1{
+    position: relative;
+    top: -670px ;
+    left: -300px;
+}
 
+
+.icon-link-2{
+    position: relative;
+    top: -370px ;
+    right: -290px;
+}
+
+
+.icon-link-3{
+    position: relative;
+    top: -960px ;
+    right: -240px;
+}
 .decorative-element {
     margin-top: 65px;
     width: 979.5px;
     height: 50px;
 }
-
+.decorative-element-link{
+    margin-top: 80px;
+}
 .menu-advantagers-btn {
     font-family: 'SF Pro Display';
     font-style: normal;
@@ -409,6 +432,9 @@ h2 {
     width: 215px;
     height: 77px;
     background: #E11D2E;
+    position: relative;
+    top: -360px ;
+   
 }
 
 .menu-advantagers-description-item {
@@ -435,6 +461,8 @@ h2 {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 160px;
+    position: relative;
+    top: -120px auto;
 }
 
 .advantagers-list-description-item {
@@ -517,13 +545,13 @@ h2 {
 }
 
 .informational-articles-text {
-    font-family: 'SF Pro Display';
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 25px;
     line-height: 42px;
     margin-top: 10px;
     opacity: 0.5;
+    margin-bottom:50px;
 }
 
 .informational-articles-wrapper {
@@ -531,7 +559,7 @@ h2 {
     background: #071022;
     border-radius: 30px;
     display: flex;
-
+    margin-bottom: 50px;
     justify-content: space-between;
 }
 
@@ -546,6 +574,7 @@ h2 {
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
+    margin-bottom: 10px;
 }
 
 .informational-articles-main {
@@ -558,6 +587,8 @@ h2 {
     font-size: 24px;
     line-height: 29px;
     text-align: left;
+    margin-top:0;
+    padding-top: 0;
 }
 
 .informational-articles-main {
@@ -570,12 +601,17 @@ h2 {
     justify-content: space-between;
     align-items: baseline;
     width: 1736px;
+    margin-bottom: 175px;
 
 }
-
+.informational-articles-bonuses-icon, .informational-articlesiventss-icon{
+ margin: 32px;
+ padding: 0;
+ margin-right: 0px;
+}
 .informational-articles-bonuses {
     width: 848px;
-
+    height: 270px;
     background: #FF9429;
     border-radius: 30px;
 
@@ -586,6 +622,7 @@ h2 {
 
 .informational-articles-ivents {
     width: 848px;
+    height: 270px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -595,7 +632,8 @@ h2 {
 
 .informational-articles-ivents-wrapper,
 .informational-articles-bonuses-wrapper {
-    padding-left: 30px;
+    margin: 38px;
+    padding: 0;
 }
 
 .informational-articles-bonuses-wrapper {
@@ -638,12 +676,16 @@ Why invest in SpiderShiba Inu?**/
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border-radius: 30px;
+    
 }
 
 .brief-summary-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 92px 177px;
+   
 }
 
 .brief-summary-title {
@@ -659,7 +701,22 @@ Why invest in SpiderShiba Inu?**/
     line-height: 24px;
     text-align: left;
 }
-
+.brief-summary-wrapper-inner-1-text, .brief-summary-wrapper-inner-2-text{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+margin-left: 20px;
+color: #FFFFFF;
+margin-top: 10px;
+opacity: 0.8;
+}
+.brief-summary-wrapper-inner-2-title, .brief-summary-wrapper-inner-1-title{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    padding: 0;
+}
 .brief-summary-btn {
     width: 404px;
     height: 80px;
@@ -682,7 +739,11 @@ Why invest in SpiderShiba Inu?**/
 .brief-summary-wrapper-inner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-right: 92px;
+    margin-left: 92px;
+    padding: 0px;
+   
 
 }
 
@@ -690,9 +751,12 @@ Why invest in SpiderShiba Inu?**/
 .brief-summary-wrapper-inner-2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+justify-content: space-between;
+align-items: flex-start;
 }
-
+.brief-summary-wrapper-inner-1-icon, .brief-summary-wrapper-inner-2-icon{
+    padding-top: 30px;
+}
 /**the fifth block
 Roadmap**/
 .roadmap {
@@ -766,8 +830,7 @@ h2 {
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
-    font-family: 'SF Pro Display';
-    font-style: normal;
+   
     font-weight: 500;
     font-size: 30px;
     line-height: 36px;
