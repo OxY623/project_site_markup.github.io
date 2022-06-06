@@ -549,7 +549,9 @@ font-weight: 700;
 font-size: 30px;
 line-height: 36px;
 }
-
+.informational-articles-main{
+    height: 384px;
+}
 .informational-articles-main-text{
     font-style: normal;
 font-weight: 400;
@@ -559,5 +561,94 @@ text-align: left ;
 }
 .informational-articles-main{
     padding: 36px 50px 36px 60px;
+}
+.informational-articles-other-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 1736px;
+   
+}
+.informational-articles-bonuses{
+    width: 848px;
+  
+background: #FF9429;
+border-radius: 30px;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.informational-articles-ivents{
+  width: 848px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background: #067CCB;
+border-radius: 30px;
+}
+.informational-articles-ivents-wrapper, .informational-articles-bonuses-wrapper{
+    padding-left: 30px;
+}
+.informational-articles-bonuses-wrapper{ margin-left: 40px;}
+.informational-articles-bonuses-title, .informational-articles-ivents-title{
+    margin-top: 0;
+    padding-top: 0;
+    text-align: left;
+    font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #FFFFFF;
+
+}
+.informational-articles-ivents-text, .informational-articles-bonuses-text{
+  margin-top: 20px;
+  padding-top: 0;
+  font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+text-align: left;
+color: #FFFFFF;
+opacity: 0.8;
+  
+}
+/** The fourth block 
+Why invest in SpiderShiba Inu?**/
+.brief-summary{
+   margin: 0 auto;
+width: 1920px;
+height: 662px;
+background: #30298C;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.brief-summary-wrapper{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+}
+
+.brief-summary-title{
+    font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+text-align: left;
+}
+.brief-summary-text{
+    font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: left;
+}
+.brief-summary-btn{
+    width: 404px;
+height: 80px;
+
+
+background: #E11D2E;
+border-radius: 10px;
 }
 
