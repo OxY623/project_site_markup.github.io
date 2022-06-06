@@ -41,7 +41,7 @@ body {
     font-size: 32px;
     line-height: 38px;
     color: #EEF1F8;
-    background-color: #151F43;
+    background: #101932;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -646,9 +646,122 @@ text-align: left;
 .brief-summary-btn{
     width: 404px;
 height: 80px;
-
-
-background: #E11D2E;
 border-radius: 10px;
+background-color: #AC1216;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+text-align: center;
+opacity: 0.8;
+text-decoration: none;
 }
+.brief-summary-wrapper-inner{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
 
+}
+.brief-summary-wrapper-inner-1, .brief-summary-wrapper-inner-2{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+}
+/**the fifth block
+Roadmap**/
+.roadmap{
+   margin: 0 auto; 
+width: 1920px;
+height: 1985px;
+background: url("../img/Frame 36.png"), #101932;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.roadmap-title{
+    font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+}
+.roadmap-list{
+    counter-reset: myCounter;
+
+}
+.roadmap-item{
+    list-style: none;
+}
+implementation-of-the-plan-list{
+    list-style: none;
+}
+.roadmap-item:before {
+    counter-increment: myCounter;
+    content:counter(myCounter);
+    color: white;
+    display: flex;
+    background: #384D70;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    line-height: 78px;
+    width: 138px;
+    height: 146px;
+    text-align: center;
+
+   
+ 
+color: #FFFFFF;
+
+opacity: 0.5;
+    background: #384D70;
+    opacity: 0.2;
+    border-radius: 30px;
+    font-weight: 700;
+font-size: 65px;
+flex-direction: row;
+
+
+
+  }
+
+  .roadmap-item{
+    width: 792px;
+   display: flex;
+   flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+  
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+    background: rgba(56, 77, 112, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    margin-top:60px;
+
+  }
+  .implementation-of-the-plan-list{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+ 
+    
+    color: #FFFFFF;
+  }
+  .hlp{
+      margin-top: 30px;
+      padding-bottom: 30px;
+  }
+  .implementation-of-the-plan-list{
+      margin-top: 20px;
+  }
