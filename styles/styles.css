@@ -1099,25 +1099,69 @@ h2 {
 }
 /**the seventh block
 Partners & Investors**/
-.tokenomics{
-text-align: center;
-height: 878px;
-    display: flex;
-    flex-direction: row;
-justify-content: center;
-align-items: center;
+.tokenomics-item-title{
+    text-align: left;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 27px;
+line-height: 32px;
+margin-bottom: 5px;
+margin-top:5px;
 
+color: #FFFFFF;
 }
-.tokenomics-container{
-    margin-top: 196px;
-    display: flex;
-    flex-direction: row;
-justify-content: center;
-}
-.tokenomics-list, .tokenomics-list-2{
-    width: 444px;
-   
+.tokenomics-item-text{
+    margin-top: 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+opacity: 0.3;
 }
 .tokenomics-item{
-    text-decoration: none;
+    width: 364px;
+
+text-decoration: none;
+white-space: nowrap;
+
+background: #000000;
+list-style: none;
+margin: 25px;
+padding: 20px 30px;
+border-radius: 15px;
 }
+.color-icon{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.tokenomics{
+    margin: 0 auto;
+    width: 1920px;
+   }
+   .tokenomics-container{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+align-items: center;
+   }
+.tokenomics-list-1{
+    margin-left: 92px;
+}
+.tokenomics-list-2{
+    margin-right: 93px;
+}
+.tokenomics{
+    margin-top: 140px;
+    padding-top: 196px;
+    padding-bottom: 130px;
+    background-color: #101D3F;
+    border-radius: 20px;
+}
+
