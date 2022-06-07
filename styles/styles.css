@@ -129,6 +129,7 @@ h2 {
 .navigation-mini-logo {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 /**Header btn right**/
