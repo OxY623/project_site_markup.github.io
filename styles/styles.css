@@ -1176,39 +1176,105 @@ Partners & Investors**/
 
 /**the eighth block
  Chart-center**/
-.down{
+.down {
     margin-top: 20px;
     width: 976px;
-height: 40px;
-background: #384D70;
-border-radius: 15px;
-font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-text-align: left;
-text-decoration: none;
-color: #FFFFFF;
-padding: 16px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;}
-.down p{
+    height: 40px;
+    background: #384D70;
+    border-radius: 15px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.down p {
     position: relative;
     top: 4px;
     left: 10px;
 }
 
-.questions{
-   margin: 0 auto;
-width: 1920px;
-height: 688px;
-text-align: center;
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-background: #101932;
+.questions {
+    margin: 0 auto;
+    width: 1920px;
+    height: 688px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #101932;
 }
+
+.main-community {
+    margin: 0 auto;
+    width: 1920px;
+    background: url("../img/footer.png") #2e34e5;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+footer {
+    height: 104px;
+    background-color: #000000;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.4;
+
+}
+.social-network-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 108px;
+    height: 108px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 80px;
+  }
+  .social-network-item{
+      margin-left: 40px;
+    
+  }
+  .main-community-title{
+    margin-top: 60px;
+  }
+
+  .main-community-text{
+    width: 699px;
+    height: 98px;
+    margin-bottom: 100px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+  
+  }
