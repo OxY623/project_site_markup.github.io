@@ -1224,13 +1224,13 @@ Partners & Investors**/
     text-align: center;
     display: flex;
     flex-direction: column;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
 
 }
 
 footer {
-    height: 104px;
+    height: 50px;
     background-color: #000000;
     position: fixed;
     right: 0;
@@ -1247,6 +1247,7 @@ footer {
     opacity: 0.4;
 
 }
+
 .social-network-list {
     list-style: none;
     margin: 0;
@@ -1258,23 +1259,57 @@ footer {
     align-items: center;
     margin-top: 90px;
     margin-bottom: 80px;
-  }
-  .social-network-item{
-      margin-left: 40px;
-    
-  }
-  .main-community-title{
-    margin-top: 60px;
-  }
+}
 
-  .main-community-text{
+.social-network-item {
+    margin-left: 40px;
+
+}
+
+.main-community-title {
+    margin-top: 60px;
+}
+
+.main-community-text {
     width: 699px;
-    height: 98px;
+
     margin-bottom: 100px;
     background-color: #000000;
     display: flex;
     flex-direction: column;
-justify-content: center;
-align-items: center;
-  
-  }
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+
+
+}
+
+.select-list {
+    margin: 0;
+    padding: 0;
+}
+
+select {
+    width: 1036px;
+    height: 75px;
+    padding: 18px 35px 18px 18px;
+    padding-left: 35px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    border: 1px solid rgb(14, 13, 13);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #384D70;
+    border-radius: 15px;
+    background: url("../img/Frame 40.png") 96% / 4% no-repeat #384D70;
+}
+
+select::-ms-expand {
+    display: none;
+}
