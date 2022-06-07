@@ -355,13 +355,13 @@ h2 {
 /**Second section background**/
 .the-second-section-is-the-wrapper {
     background: #101932;
-    background-size:  100%;
+    background-size: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .menu-advantagers-text {
@@ -373,10 +373,10 @@ h2 {
     display: flex;
     align-items: center;
     text-align: center;
-    
+
     color: #FFFFFF;
     position: relative;
-    top: 360px ;
+    top: 360px;
 }
 
 .menu-advantagers {
@@ -385,33 +385,37 @@ h2 {
     justify-content: center;
     align-items: center;
 }
-.icon-link-1{
+
+.icon-link-1 {
     position: relative;
-    top: -670px ;
+    top: -670px;
     left: -300px;
 }
 
 
-.icon-link-2{
+.icon-link-2 {
     position: relative;
-    top: -370px ;
+    top: -370px;
     right: -290px;
 }
 
 
-.icon-link-3{
+.icon-link-3 {
     position: relative;
-    top: -960px ;
+    top: -960px;
     right: -240px;
 }
+
 .decorative-element {
     margin-top: 65px;
     width: 979.5px;
     height: 50px;
 }
-.decorative-element-link{
+
+.decorative-element-link {
     margin-top: 80px;
 }
+
 .menu-advantagers-btn {
     font-family: 'SF Pro Display';
     font-style: normal;
@@ -433,8 +437,8 @@ h2 {
     height: 77px;
     background: #E11D2E;
     position: relative;
-    top: -360px ;
-   
+    top: -360px;
+
 }
 
 .menu-advantagers-description-item {
@@ -545,13 +549,13 @@ h2 {
 }
 
 .informational-articles-text {
-    
+
     font-weight: 400;
     font-size: 25px;
     line-height: 42px;
     margin-top: 10px;
     opacity: 0.5;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 .informational-articles-wrapper {
@@ -587,7 +591,7 @@ h2 {
     font-size: 24px;
     line-height: 29px;
     text-align: left;
-    margin-top:0;
+    margin-top: 0;
     padding-top: 0;
 }
 
@@ -604,11 +608,14 @@ h2 {
     margin-bottom: 175px;
 
 }
-.informational-articles-bonuses-icon, .informational-articlesiventss-icon{
- margin: 32px;
- padding: 0;
- margin-right: 0px;
+
+.informational-articles-bonuses-icon,
+.informational-articlesiventss-icon {
+    margin: 32px;
+    padding: 0;
+    margin-right: 0px;
 }
+
 .informational-articles-bonuses {
     width: 848px;
     height: 270px;
@@ -677,7 +684,7 @@ Why invest in SpiderShiba Inu?**/
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    
+
 }
 
 .brief-summary-wrapper {
@@ -685,7 +692,7 @@ Why invest in SpiderShiba Inu?**/
     flex-direction: column;
     justify-content: center;
     margin: 92px 177px;
-   
+
 }
 
 .brief-summary-title {
@@ -701,22 +708,27 @@ Why invest in SpiderShiba Inu?**/
     line-height: 24px;
     text-align: left;
 }
-.brief-summary-wrapper-inner-1-text, .brief-summary-wrapper-inner-2-text{
+
+.brief-summary-wrapper-inner-1-text,
+.brief-summary-wrapper-inner-2-text {
     font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 38px;
-margin-left: 20px;
-color: #FFFFFF;
-margin-top: 10px;
-opacity: 0.8;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin-left: 20px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    opacity: 0.8;
 }
-.brief-summary-wrapper-inner-2-title, .brief-summary-wrapper-inner-1-title{
+
+.brief-summary-wrapper-inner-2-title,
+.brief-summary-wrapper-inner-1-title {
     margin-left: 20px;
     margin-bottom: 0px;
     padding: 0;
 }
+
 .brief-summary-btn {
     width: 404px;
     height: 80px;
@@ -743,7 +755,7 @@ opacity: 0.8;
     margin-right: 92px;
     margin-left: 92px;
     padding: 0px;
-   
+
 
 }
 
@@ -751,12 +763,15 @@ opacity: 0.8;
 .brief-summary-wrapper-inner-2 {
     display: flex;
     flex-direction: row;
-justify-content: space-between;
-align-items: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-.brief-summary-wrapper-inner-1-icon, .brief-summary-wrapper-inner-2-icon{
+
+.brief-summary-wrapper-inner-1-icon,
+.brief-summary-wrapper-inner-2-icon {
     padding-top: 30px;
 }
+
 /**the fifth block
 Roadmap**/
 .roadmap {
@@ -830,7 +845,7 @@ h2 {
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
-   
+
     font-weight: 500;
     font-size: 30px;
     line-height: 36px;
@@ -838,15 +853,12 @@ h2 {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 30px;
     margin-top: 60px;
-
 }
 
 .implementation-of-the-plan-list {
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
-
-
     color: #FFFFFF;
 }
 
@@ -858,35 +870,41 @@ h2 {
 .implementation-of-the-plan-list {
     margin-top: 20px;
 }
-.roadmap-item-1{
+
+.roadmap-item-1 {
     position: relative;
-    left:-430px;
-    top:-80px; 
+    left: -430px;
+    top: -80px;
 }
-.roadmap-item-2{
+
+.roadmap-item-2 {
     position: relative;
-    left:395px;
-    top:-80px;
+    left: 395px;
+    top: -80px;
 }
-.roadmap-item-3{
+
+.roadmap-item-3 {
     position: relative;
-    left:-430px;
-    top:-80px;
+    left: -430px;
+    top: -80px;
 }
-.roadmap-item-4{
+
+.roadmap-item-4 {
     position: relative;
-    left:395px;
-    top:-70px;
+    left: 395px;
+    top: -70px;
     background-color: #4f6487;
 }
-.roadmap-item-5{
+
+.roadmap-item-5 {
     position: relative;
-    left:-430px;
-    top:-70px;
+    left: -430px;
+    top: -70px;
     background-color: #4f6487;
-    
-   
+
+
 }
+
 /**-the sixth block
             Team**/
 .development_and_sponsors {
@@ -894,13 +912,16 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .uk-grid-uk-slideset-team-list {
+    width: 1587px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
+    margin-left: 0;
 }
 
 .team-item,
@@ -915,26 +936,164 @@ h2 {
     text-decoration: none;
 }
 
-.mi-slider {
-        
-            position: relative;
-        
-            margin-top: 30px;
-        
-            height: 490px;
-        
-        }
-        
- .mi-slider ul {
-            list-style-type: none;
-            position: absolute;
-            width: 100%;
-            left: 0;
-            bottom: 140px;
-            overflow: hidden;
-            text-align: center;
-            pointer-events: none;
-        }
-         .mi-slider ul.mi-current {
-            pointer-events: auto;
-        }
+.team-item {
+    margin-left: 55px;
+}
+
+.team-name {
+    padding: 0;
+    margin-top: 17px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+
+.team-profession {
+    padding: 0;
+    margin-top: 10px;
+
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.partners-gallery-item-1 {
+    width: 1587px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.partners-gallery-item-icon {
+    margin-left: 5px;
+}
+
+.slider-link {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #A2A7B4;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.item-1 {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/**content-slider**/
+#itemOne {
+
+    padding-left: 0;
+
+}
+
+#itemTwo {
+
+    position: relative;
+    left: 1660px;
+    top: -490px;
+}
+
+
+
+#itemThree {
+
+    position: relative;
+    left: 3320px;
+    top: -980px;
+
+}
+
+#wrapper {
+    width: 4980px;
+    display: contents;
+    position: relative;
+    left: 0px;
+    display: inline;
+    white-space: nowrap;
+}
+
+.content {
+    float: left;
+    width: 1660px;
+    height: 490px;
+    white-space: normal;
+    background-repeat: no-repeat;
+}
+
+#contentContainer {
+    width: 1660px;
+    height: 490px;
+    overflow: hidden;
+}
+
+#navLinks {
+    text-align: center;
+    width: 1587px;
+
+}
+
+#navLinks ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+#navLinks ul li {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    list-style: none;
+    cursor: pointer;
+    background-color: #CCCCCC;
+    padding: 5px;
+    border-radius: 50%;
+    border: black 5px solid;
+}
+
+#navLinks ul li:hover {
+    background-color: #ddff00;
+}
+
+#navLinks ul li.active {
+    background-color: #f70909;
+    color: #FFFFFF;
+    outline-width: 7px;
+}
+
+#navLinks ul li.active:hover {
+    background-color: #fe0606;
+    color: #FFFFFF;
+}
+
+#navLinks ul li.active {
+    background-color: #f00f0f;
+    color: #FFFFFF;
+    outline-width: 7px;
+}
+
+#navLinks ul li.active:hover {
+    background-color: #f60303;
+    color: #FFFFFF;
+}
+
+#wrapper {
+    width: 2200px;
+    position: relative;
+    left: 0px;
+    transition: left .5s ease-in-out;
+}
+
+.partners-gallery text-center{
+    margin-top: 80px;
+}
