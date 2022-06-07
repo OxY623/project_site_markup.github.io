@@ -1097,3 +1097,27 @@ h2 {
 .partners-gallery text-center{
     margin-top: 80px;
 }
+/**the seventh block
+Partners & Investors**/
+.tokenomics{
+text-align: center;
+height: 878px;
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+.tokenomics-container{
+    margin-top: 196px;
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+}
+.tokenomics-list, .tokenomics-list-2{
+    width: 444px;
+   
+}
+.tokenomics-item{
+    text-decoration: none;
+}
