@@ -358,9 +358,11 @@ h2 {
 
 /**Second section background**/
 .the-second-section-is-the-wrapper {
+    width: 1920px;
+    height: 939px+856px;
     background: #101932;
     background-size: 100%;
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -539,6 +541,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .informational-articles-title {
@@ -916,6 +919,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 
 }
 
