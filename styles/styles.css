@@ -37,6 +37,7 @@ html {
 }
 
 body {
+    width: 1920px;
     font-family: "SF Pro Display", sans-serif;
     font-size: 32px;
     line-height: 38px;
@@ -46,6 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    min-width: 100%;
 
 }
 
@@ -62,6 +64,7 @@ h2 {
 
 /**Header**/
 .upper-header {
+    width: 1920px;
     color: #FFFFFF;
     font-size: 17px;
     margin: 0 auto;
