@@ -37,7 +37,8 @@ html {
 }
 
 body {
-    width: 1920px;
+    width: 100%;
+    max-width: 1920px;
     font-family: "SF Pro Display", sans-serif;
     font-size: 32px;
     line-height: 38px;
